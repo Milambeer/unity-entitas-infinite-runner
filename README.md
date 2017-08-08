@@ -1,5 +1,5 @@
 # Unity and Entitas infinite runner
-![Game](https://raw.githubusercontent.com/Milambeer/unity-entitas-infinite-runner/master/Readme/Images/Game.png)  ![Death](https://raw.githubusercontent.com/Milambeer/unity-entitas-infinite-runner/master/Readme/Images/Death.png)
+![Game](https://raw.githubusercontent.com/Milambeer/unity-entitas-infinite-runner/master/Readme/Images/Game.png) ![Pause](https://raw.githubusercontent.com/Milambeer/unity-entitas-infinite-runner/master/Readme/Images/Pause.png) ![Death](https://raw.githubusercontent.com/Milambeer/unity-entitas-infinite-runner/master/Readme/Images/Death.png)
 
 This project aim to show integration of entitas within a small unity projects.
 
