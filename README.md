@@ -17,9 +17,9 @@ The game features are:
 
 * Clone the repository
 
-`
+```
 git clone git@github.com:Milambeer/unity-entitas-infinite-runner.git
-`
+```
 
 * Open the root folder as a unity project
 
