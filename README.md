@@ -4,6 +4,8 @@
     <img style="width: 32%;" src="https://raw.githubusercontent.com/Milambeer/unity-entitas-infinite-runner/master/Readme/Images/Pause.png" alt="Entitas">
     <img style="width: 32%;" src="https://raw.githubusercontent.com/Milambeer/unity-entitas-infinite-runner/master/Readme/Images/Death.png" alt="Entitas">
 </p>
+
+
 This project aim to show integration of entitas within a small unity projects.
 
 The game features are:
