@@ -1,8 +1,8 @@
 # Unity and Entitas infinite runner
 <p >
-    <img style="max-width: 32%;" src="https://raw.githubusercontent.com/Milambeer/unity-entitas-infinite-runner/master/Readme/Images/Game.png" alt="Entitas">
-    <img style="max-width: 32%;" src="https://raw.githubusercontent.com/Milambeer/unity-entitas-infinite-runner/master/Readme/Images/Pause.png" alt="Entitas">
-    <img style="max-width: 32%;" src="https://raw.githubusercontent.com/Milambeer/unity-entitas-infinite-runner/master/Readme/Images/Death.png" alt="Entitas">
+    <img style="width: 200px;" src="https://raw.githubusercontent.com/Milambeer/unity-entitas-infinite-runner/master/Readme/Images/Game.png" alt="Entitas">
+    <img style="width: 200px;" src="https://raw.githubusercontent.com/Milambeer/unity-entitas-infinite-runner/master/Readme/Images/Pause.png" alt="Entitas">
+    <img style="width: 200px;" src="https://raw.githubusercontent.com/Milambeer/unity-entitas-infinite-runner/master/Readme/Images/Death.png" alt="Entitas">
 </p>
 
 
