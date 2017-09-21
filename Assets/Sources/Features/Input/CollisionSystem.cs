@@ -24,26 +24,28 @@ public sealed class CollisionSystem : ReactiveSystem<InputEntity>
             GameEntity to = e.collision.to;
 
             string toResourceName = to.resource.name;
-            if (from.isPlayer) {
-                switch (toResourceName) {
-                    case "BottomBorder":
-                        from.isDestroyable = true;
-                        createDeathEvent();
-                        break;
-                    case "TopBorder":
-                        break;
-                    case "Obstacle":
-                        from.isDestroyable = true;
-                        createDeathEvent();
-                        break;
-                    default:
-                        throw new Exception("Target resource " + toResourceName + " in collision system not found");
-                }
-            } else if (from.isLeftBorder) {
-                switch (toResourceName) {
-                    case "Obstacle":
-                        to.isDestroyable = true;
-                        break;
+            if (from != null && to != null) {
+                if (from.isPlayer) {
+                    switch (toResourceName) {
+                        case "BottomBorder":
+                            from.isDestroyable = true;
+                            createDeathEvent();
+                            break;
+                        case "TopBorder":
+                            break;
+                        case "Obstacle":
+                            from.isDestroyable = true;
+                            createDeathEvent();
+                            break;
+                        default:
+                            throw new Exception("Target resource " + toResourceName + " in collision system not found");
+                    }
+                } else if (from.isLeftBorder) {
+                    switch (toResourceName) {
+                        case "Obstacle":
+                            to.isDestroyable = true;
+                            break;
+                    }
                 }
             }
             e.Destroy();
