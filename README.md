@@ -23,6 +23,8 @@ git clone git@github.com:Milambeer/unity-entitas-infinite-runner.git
 
 * Open the root folder as a unity project
 
+* Launch the Game scene
+
 * Run !
 
 # Technology overview
